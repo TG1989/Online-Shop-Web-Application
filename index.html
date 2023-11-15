@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce_site</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+
+    <header>
+
+        <h1>e-<span>shop</span>
+        </h1>
+
+        <input type="text" placeholder="Search for anything">
+
+        <div class="buttons">
+            <button id="open-button">Cart</button>
+            <button>Sign up</button>
+            <button>Sign in</button>
+        </div>
+
+    </header>
+
+    <!-- Main Section -->
+
+    <main>
+        <div class="category-wrapper">
+            <h2>Categories</h2>
+
+            <div class="categories"></div>
+        </div>
+
+
+        <div class="product-wrapper">
+            <h2>Products</h2>
+            <div class="products" id="products">
+
+            </div>
+        </div>
+        </div>
+
+
+        <!-- Modal -->
+
+        <div id="modal-wrapper" class="modal-wrapper">
+            <div class="modal">
+                <img id="close-button" src="./images/close.png" alt="">
+
+                <div class="modal-list"></div>
+
+                <div class="total">
+                    Total: <span id="total-price">0</span><span>$</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
